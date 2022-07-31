@@ -91,7 +91,7 @@ void virtualMemoryDis(VirtualMemory_p virtualMemory) {
             Cell_p cell = virtualMemory->cells[(j + i * 5)];
             char * types[5] = {"FREE","EDEN","SURVIVE","OLD","HUGE"};
             char *tgr = types[cell->type_flg];
-            printf(" |Cell:%d S:%s USE:%ld/%db| ",cell->id,tgr,cell->usedIndex,CELL_SIZE);
+            printf(" |ID:%2d S:%-7s M:%2ld/%db| ",cell->id,tgr,cell->usedIndex,CELL_SIZE);
         }
         putchar('\n');
     }
