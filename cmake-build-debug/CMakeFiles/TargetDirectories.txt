@@ -1,0 +1,3 @@
+/home/muleisy/CLionProjects/ＭyGc/cmake-build-debug/CMakeFiles/MyGc.dir
+/home/muleisy/CLionProjects/ＭyGc/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/muleisy/CLionProjects/ＭyGc/cmake-build-debug/CMakeFiles/rebuild_cache.dir
